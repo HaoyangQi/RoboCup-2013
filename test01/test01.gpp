@@ -1,0 +1,2023 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MB_Interface>
+    <InputPins>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>25</Pin>
+        <CompID>25</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>US_Front</Name>
+        <PictureFile />
+        <Text>Front Ultrasonic Sensor ( Pin: CCP 1). Unit:cm</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>26</Pin>
+        <CompID>26</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>US_Back</Name>
+        <PictureFile />
+        <Text>Back Ultrasonic Sensor ( Pin: CCP 2). Unit:cm</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>27</Pin>
+        <CompID>27</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>US_Left</Name>
+        <PictureFile />
+        <Text>Left Ultrasonic Sensor ( Pin: CCP 3). Unit:cm</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>28</Pin>
+        <CompID>28</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>US_Right</Name>
+        <PictureFile />
+        <Text>Right Ultrasonic Sensor ( Pin: CCP 4). Unit:cm</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>31</Pin>
+        <CompID>33</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>CSLeft_R</Name>
+        <PictureFile />
+        <Text>Left Color Sensor(Pin: ADC1) .  Red or Brightness Value.</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>32</Pin>
+        <CompID>34</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>CSLeft_G</Name>
+        <PictureFile />
+        <Text>Left Color Sensor(Pin: ADC2) .  Green Value</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>33</Pin>
+        <CompID>35</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>CSLeft_B</Name>
+        <PictureFile />
+        <Text>Left Color Sensor(Pin: ADC3) .  Blue Value</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>34</Pin>
+        <CompID>36</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>CSRight_R</Name>
+        <PictureFile />
+        <Text>Left Color Sensor(Pin: ADC4) .  Red or Brightness Value</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>35</Pin>
+        <CompID>37</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>CSRight_G</Name>
+        <PictureFile />
+        <Text>Left Color Sensor(Pin: ADC5) .  Green Value</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>36</Pin>
+        <CompID>38</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>CSRight_B</Name>
+        <PictureFile />
+        <Text>Left Color Sensor(Pin: ADC5) .  Blue Value</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>41</Pin>
+        <CompID>47</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>PositionX</Name>
+        <PictureFile />
+        <Text>X Coordinate (Pin: INFO_3); Unit:cm </Text>
+        <Min>0</Min>
+        <Max>1000</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>42</Pin>
+        <CompID>48</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>PositionY</Name>
+        <PictureFile />
+        <Text>Y Coordinate (Pin: INFO_3); Unit:cm</Text>
+        <Min>0</Min>
+        <Max>1000</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>40</Pin>
+        <CompID>49</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>TM_State</Name>
+        <PictureFile />
+        <Text>Teammate State (Pin:INFO_2).</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>49</Pin>
+        <CompID>51</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>Compass</Name>
+        <PictureFile />
+        <Text>Compass( Pin : IO1 [DI/O1] ). Unit:Degree</Text>
+        <Min>0</Min>
+        <Max>360</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>51</Pin>
+        <CompID>52</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>Time</Name>
+        <PictureFile />
+        <Text>Unit: second. Starting from Game Start.</Text>
+        <Min>0</Min>
+        <Max>1000</Max>
+      </PIN>
+    </InputPins>
+    <OutputPins>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>1</Pin>
+        <CompID>6</CompID>
+        <bInOut>Out</bInOut>
+        <VarType>Int16</VarType>
+        <Name>Wheel_Left</Name>
+        <PictureFile />
+        <Text>Left Wheel ( Pin : Motor 1 [DUO]  ) </Text>
+        <Min>-5</Min>
+        <Max>5</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>3</Pin>
+        <CompID>7</CompID>
+        <bInOut>Out</bInOut>
+        <VarType>Int16</VarType>
+        <Name>Wheel_Right</Name>
+        <PictureFile />
+        <Text>Right Wheel (Pin:  Motor 2 [DUO]  ) </Text>
+        <Min>-5</Min>
+        <Max>5</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>47</Pin>
+        <CompID>18</CompID>
+        <bInOut>Out</bInOut>
+        <VarType>Int16</VarType>
+        <Name>LED_1</Name>
+        <PictureFile />
+        <Text>LED 1( Pin: LED_1). 0:Off;1:Flash;2:On </Text>
+        <Min>0</Min>
+        <Max>2</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>39</Pin>
+        <CompID>22</CompID>
+        <bInOut>Out</bInOut>
+        <VarType>Int16</VarType>
+        <Name>MyState</Name>
+        <PictureFile />
+        <Text>My State.Sent to teanmate once it is changed.</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+    </OutputPins>
+    <InputPin_LUT>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>25</Pin>
+        <CompID>25</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>US_Front</Name>
+        <PictureFile />
+        <Text>Front Ultrasonic Sensor ( Pin: CCP 1). Unit:cm</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>26</Pin>
+        <CompID>26</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>US_Back</Name>
+        <PictureFile />
+        <Text>Back Ultrasonic Sensor ( Pin: CCP 2). Unit:cm</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>27</Pin>
+        <CompID>27</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>US_Left</Name>
+        <PictureFile />
+        <Text>Left Ultrasonic Sensor ( Pin: CCP 3). Unit:cm</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>28</Pin>
+        <CompID>28</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>US_Right</Name>
+        <PictureFile />
+        <Text>Right Ultrasonic Sensor ( Pin: CCP 4). Unit:cm</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>31</Pin>
+        <CompID>33</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>CSLeft_R</Name>
+        <PictureFile />
+        <Text>Left Color Sensor(Pin: ADC1) .  Red or Brightness Value.</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>32</Pin>
+        <CompID>34</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>CSLeft_G</Name>
+        <PictureFile />
+        <Text>Left Color Sensor(Pin: ADC2) .  Green Value</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>33</Pin>
+        <CompID>35</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>CSLeft_B</Name>
+        <PictureFile />
+        <Text>Left Color Sensor(Pin: ADC3) .  Blue Value</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>34</Pin>
+        <CompID>36</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>CSRight_R</Name>
+        <PictureFile />
+        <Text>Left Color Sensor(Pin: ADC4) .  Red or Brightness Value</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>35</Pin>
+        <CompID>37</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>CSRight_G</Name>
+        <PictureFile />
+        <Text>Left Color Sensor(Pin: ADC5) .  Green Value</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>36</Pin>
+        <CompID>38</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>CSRight_B</Name>
+        <PictureFile />
+        <Text>Left Color Sensor(Pin: ADC5) .  Blue Value</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>41</Pin>
+        <CompID>47</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>PositionX</Name>
+        <PictureFile />
+        <Text>X Coordinate (Pin: INFO_3); Unit:cm </Text>
+        <Min>0</Min>
+        <Max>1000</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>42</Pin>
+        <CompID>48</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>PositionY</Name>
+        <PictureFile />
+        <Text>Y Coordinate (Pin: INFO_3); Unit:cm</Text>
+        <Min>0</Min>
+        <Max>1000</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>40</Pin>
+        <CompID>49</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>TM_State</Name>
+        <PictureFile />
+        <Text>Teammate State (Pin:INFO_2).</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>49</Pin>
+        <CompID>51</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>Compass</Name>
+        <PictureFile />
+        <Text>Compass( Pin : IO1 [DI/O1] ). Unit:Degree</Text>
+        <Min>0</Min>
+        <Max>360</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>51</Pin>
+        <CompID>52</CompID>
+        <bInOut>In</bInOut>
+        <VarType>Int16</VarType>
+        <Name>Time</Name>
+        <PictureFile />
+        <Text>Unit: second. Starting from Game Start.</Text>
+        <Min>0</Min>
+        <Max>1000</Max>
+      </PIN>
+    </InputPin_LUT>
+    <OutputPin_LUT>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>1</Pin>
+        <CompID>6</CompID>
+        <bInOut>Out</bInOut>
+        <VarType>Int16</VarType>
+        <Name>Wheel_Left</Name>
+        <PictureFile />
+        <Text>Left Wheel ( Pin : Motor 1 [DUO]  ) </Text>
+        <Min>-5</Min>
+        <Max>5</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>3</Pin>
+        <CompID>7</CompID>
+        <bInOut>Out</bInOut>
+        <VarType>Int16</VarType>
+        <Name>Wheel_Right</Name>
+        <PictureFile />
+        <Text>Right Wheel (Pin:  Motor 2 [DUO]  ) </Text>
+        <Min>-5</Min>
+        <Max>5</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>47</Pin>
+        <CompID>18</CompID>
+        <bInOut>Out</bInOut>
+        <VarType>Int16</VarType>
+        <Name>LED_1</Name>
+        <PictureFile />
+        <Text>LED 1( Pin: LED_1). 0:Off;1:Flash;2:On </Text>
+        <Min>0</Min>
+        <Max>2</Max>
+      </PIN>
+      <PIN>
+        <bHideFromGUI>false</bHideFromGUI>
+        <Pin>39</Pin>
+        <CompID>22</CompID>
+        <bInOut>Out</bInOut>
+        <VarType>Int16</VarType>
+        <Name>MyState</Name>
+        <PictureFile />
+        <Text>My State.Sent to teanmate once it is changed.</Text>
+        <Min>0</Min>
+        <Max>255</Max>
+      </PIN>
+    </OutputPin_LUT>
+  </MB_Interface>
+  <ProjectFolder>E:\test01\</ProjectFolder>
+  <ProjectName>test01</ProjectName>
+  <TeamName />
+  <DefinedWords>
+    <Word>abstract</Word>
+    <Word>event</Word>
+    <Word>new</Word>
+    <Word>struct</Word>
+    <Word>as</Word>
+    <Word>explicit</Word>
+    <Word>null</Word>
+    <Word>switch</Word>
+    <Word>base</Word>
+    <Word>extern</Word>
+    <Word>object</Word>
+    <Word>this</Word>
+    <Word>bool</Word>
+    <Word>false</Word>
+    <Word>operator</Word>
+    <Word>throw</Word>
+    <Word>break</Word>
+    <Word>finally</Word>
+    <Word>out</Word>
+    <Word>true</Word>
+    <Word>byte</Word>
+    <Word>fixed</Word>
+    <Word>override</Word>
+    <Word>try</Word>
+    <Word>case</Word>
+    <Word>float</Word>
+    <Word>params</Word>
+    <Word>typeof</Word>
+    <Word>catch</Word>
+    <Word>for</Word>
+    <Word>private</Word>
+    <Word>uint</Word>
+    <Word>char</Word>
+    <Word>foreach</Word>
+    <Word>protected</Word>
+    <Word>ulong</Word>
+    <Word>checked</Word>
+    <Word>goto</Word>
+    <Word>public</Word>
+    <Word>unchecked</Word>
+    <Word>class</Word>
+    <Word>if</Word>
+    <Word>readonly</Word>
+    <Word>unsafe</Word>
+    <Word>const</Word>
+    <Word>implicit</Word>
+    <Word>ref</Word>
+    <Word>ushort</Word>
+    <Word>continue</Word>
+    <Word>in</Word>
+    <Word>return</Word>
+    <Word>using</Word>
+    <Word>decimal</Word>
+    <Word>int</Word>
+    <Word>sbyte</Word>
+    <Word>virtual</Word>
+    <Word>default</Word>
+    <Word>interface</Word>
+    <Word>sealed</Word>
+    <Word>volatile</Word>
+    <Word>delegate</Word>
+    <Word>internal</Word>
+    <Word>short</Word>
+    <Word>void</Word>
+    <Word>do</Word>
+    <Word>is</Word>
+    <Word>sizeof</Word>
+    <Word>while</Word>
+    <Word>double</Word>
+    <Word>lock</Word>
+    <Word>stackalloc</Word>
+    <Word>else</Word>
+    <Word>long</Word>
+    <Word>static</Word>
+    <Word>enum</Word>
+    <Word>namespace</Word>
+    <Word>string</Word>
+  </DefinedWords>
+  <GlobalVariables>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>Duration</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>SuperDuration</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Bool</VarType>
+      <Name>bGameEnd</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>CurAction</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>CurGame</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>SuperObj_Num</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>SuperObj_X</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>SuperObj_Y</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>Teleport</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>LoadedObjects</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>RedObject</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>GreenObject</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>BlackObject</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>IfFreeObject</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>Object</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <InitialValue>0</InitialValue>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>FindObjStep</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <InitialValue>0</InitialValue>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>SuperObj_TempX</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <InitialValue>0</InitialValue>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>SuperObj_TempY</Name>
+    </Var>
+    <Var>
+      <ReadOnly>false</ReadOnly>
+      <InitialValue>0</InitialValue>
+      <ArraryLength>0</ArraryLength>
+      <VarType>Int16</VarType>
+      <Name>FreeStep</Name>
+    </Var>
+  </GlobalVariables>
+  <MainFunc>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+    <FuncType>Fixed</FuncType>
+    <ReturnType>Void</ReturnType>
+    <Name>Main</Name>
+    <ParameterDesps />
+    <Statements />
+    <Variables />
+  </MainFunc>
+  <OnTimerFunc>
+    <AutoScrollPostion>
+      <X>0</X>
+      <Y>0</Y>
+    </AutoScrollPostion>
+    <FuncType>Fixed</FuncType>
+    <ReturnType>Void</ReturnType>
+    <Name>OnTimer</Name>
+    <ParameterDesps />
+    <Statements>
+      <Statement>
+        <bSyntaxError>false</bSyntaxError>
+        <Location>
+          <X>26</X>
+          <Y>38</Y>
+        </Location>
+        <Width>99</Width>
+        <Name>Switch</Name>
+        <In_Pin>0</In_Pin>
+        <Out_Pin>-1</Out_Pin>
+        <Keyword>Switch</Keyword>
+        <Expressions>
+          <Expression>
+            <Out_Pin>-1</Out_Pin>
+            <Expression>CurGame</Expression>
+          </Expression>
+          <Expression>
+            <Out_Pin>1</Out_Pin>
+            <Expression>0</Expression>
+          </Expression>
+          <Expression>
+            <Out_Pin>2</Out_Pin>
+          </Expression>
+        </Expressions>
+      </Statement>
+      <Statement>
+        <bSyntaxError>false</bSyntaxError>
+        <Tip>Void Game00()</Tip>
+        <Location>
+          <X>164</X>
+          <Y>78</Y>
+        </Location>
+        <Width>99</Width>
+        <Name>Game00</Name>
+        <In_Pin>1</In_Pin>
+        <Out_Pin>-1</Out_Pin>
+        <Keyword>Function</Keyword>
+        <Expressions>
+          <Expression>
+            <Out_Pin>-1</Out_Pin>
+            <Name>Void</Name>
+          </Expression>
+        </Expressions>
+      </Statement>
+      <Statement>
+        <bSyntaxError>false</bSyntaxError>
+        <Tip>Void Game00()</Tip>
+        <Location>
+          <X>164</X>
+          <Y>108</Y>
+        </Location>
+        <Width>99</Width>
+        <Name>Game00</Name>
+        <In_Pin>2</In_Pin>
+        <Out_Pin>-1</Out_Pin>
+        <Keyword>Function</Keyword>
+        <Expressions>
+          <Expression>
+            <Out_Pin>-1</Out_Pin>
+            <Name>Void</Name>
+          </Expression>
+        </Expressions>
+      </Statement>
+    </Statements>
+    <Variables />
+  </OnTimerFunc>
+  <Functions>
+    <Function>
+      <AutoScrollPostion>
+        <X>0</X>
+        <Y>0</Y>
+      </AutoScrollPostion>
+      <FuncType>Self_Defined</FuncType>
+      <ReturnType>Void</ReturnType>
+      <Name>Game00</Name>
+      <ParameterDesps />
+      <Statements>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>20</X>
+            <Y>20</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>If</Name>
+          <In_Pin>0</In_Pin>
+          <Out_Pin>27</Out_Pin>
+          <Keyword>If</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>1</Out_Pin>
+              <Expression>Duration&gt;0</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>2</Out_Pin>
+              <Expression>Time&gt;=60 &amp;&amp; Time&lt;=1000&amp;&amp;(IfFreeObject==1)</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>3</Out_Pin>
+              <Expression>RedObject&gt;0&amp;&amp;GreenObject&gt;0&amp;&amp;BlackObject&gt;0</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>17</Out_Pin>
+              <Expression>CSRight_R&gt;=0 &amp;&amp; CSRight_R&lt;=7 &amp;&amp; CSRight_G&gt;=0 &amp;&amp; CSRight_G&lt;=7 &amp;&amp; CSRight_B&gt;=0 &amp;&amp; CSRight_B&lt;=7&amp;&amp;(BlackObject&lt;1)</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>18</Out_Pin>
+              <Expression>CSRight_R&gt;=0 &amp;&amp; CSRight_R&lt;=7 &amp;&amp; CSRight_G&gt;=120 &amp;&amp; CSRight_G&lt;=140 &amp;&amp; CSRight_B&gt;=0 &amp;&amp; CSRight_B&lt;=7&amp;&amp;(GreenObject&lt;1)</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>19</Out_Pin>
+              <Expression>CSRight_R&gt;=140 &amp;&amp; CSRight_R&lt;=170 &amp;&amp; CSRight_G&gt;=0 &amp;&amp; CSRight_G&lt;=10 &amp;&amp; CSRight_B&gt;=0 &amp;&amp; CSRight_B&lt;=10&amp;&amp;(RedObject&lt;1)</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>20</Out_Pin>
+              <Expression>CSLeft_R&gt;=0 &amp;&amp; CSLeft_R&lt;=7 &amp;&amp; CSLeft_G&gt;=0 &amp;&amp; CSLeft_G&lt;=7 &amp;&amp; CSLeft_B&gt;=0 &amp;&amp; CSLeft_B&lt;=7&amp;&amp;(BlackObject&lt;1)</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>21</Out_Pin>
+              <Expression>CSLeft_R&gt;=0 &amp;&amp; CSLeft_R&lt;=7 &amp;&amp; CSLeft_G&gt;=100 &amp;&amp; CSLeft_G&lt;=140 &amp;&amp; CSLeft_B&gt;=0 &amp;&amp; CSLeft_B&lt;=7&amp;&amp;(GreenObject&lt;1)</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>22</Out_Pin>
+              <Expression>CSLeft_R&gt;=140 &amp;&amp; CSLeft_R&lt;=170 &amp;&amp; CSLeft_G&gt;=0 &amp;&amp; CSLeft_G&lt;=10 &amp;&amp; CSLeft_B&gt;=0 &amp;&amp; CSLeft_B&lt;=10&amp;&amp;(RedObject&lt;1)</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>23</Out_Pin>
+              <Expression>US_Left&gt;=0 &amp;&amp; US_Left&lt;=15 ||(US_Right&lt;15)</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>24</Out_Pin>
+              <Expression>US_Front&gt;=0 &amp;&amp; US_Front&lt;=15</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>25</Out_Pin>
+              <Expression>CSLeft_R&gt;=250 &amp;&amp; CSLeft_R&lt;=255 &amp;&amp; CSLeft_G&gt;=250 &amp;&amp; CSLeft_G&lt;=255 &amp;&amp; CSLeft_B&gt;=40 &amp;&amp; CSLeft_B&lt;=60 ||(CSRight_R&gt;250&amp;&amp;CSRight_G&gt;250&amp;&amp;(CSRight_B&gt;40&amp;&amp;CSRight_B&lt;60))</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>26</Out_Pin>
+              <Expression>true</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>46</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>1</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Duration--;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>90</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>2</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=0 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>138</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>3</In_Pin>
+          <Out_Pin>4</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=1 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>600</X>
+            <Y>46</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>If</Name>
+          <In_Pin>4</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>If</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>5</Out_Pin>
+              <Expression>CSLeft_R&gt;=250 &amp;&amp; CSLeft_R&lt;=255 &amp;&amp; CSLeft_G&gt;=140 &amp;&amp; CSLeft_G&lt;=190 &amp;&amp; CSLeft_B&gt;=40 &amp;&amp; CSLeft_B&lt;=60 &amp;&amp; CSRight_R&gt;=250 &amp;&amp; CSRight_R&lt;=255 &amp;&amp; CSRight_G&gt;=140 &amp;&amp; CSRight_G&lt;=190 &amp;&amp; CSRight_B&gt;=40 &amp;&amp; CSRight_B&lt;=60&amp;&amp;(RedObject==1&amp;&amp;GreenObject==1&amp;&amp;BlackObject==1)</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>6</Out_Pin>
+              <Expression>CSLeft_R&gt;=250 &amp;&amp; CSLeft_R&lt;=255 &amp;&amp; CSLeft_G&gt;=140 &amp;&amp; CSLeft_G&lt;=190 &amp;&amp; CSLeft_B&gt;=40 &amp;&amp; CSLeft_B&lt;=60 ||(CSRight_R&gt;250&amp;&amp;(CSRight_G&gt;140&amp;&amp;CSRight_G&lt;190)&amp;&amp;
+(CSRight_B&gt;40&amp;&amp;CSRight_B&lt;60))</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>7</Out_Pin>
+              <Expression>FreeStep==4</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>8</Out_Pin>
+              <Expression>FreeStep==3</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>9</Out_Pin>
+              <Expression>FreeStep==2</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>10</Out_Pin>
+              <Expression>FreeStep==1</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>11</Out_Pin>
+              <Expression>US_Front&gt;=0 &amp;&amp; US_Front&lt;=15</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>12</Out_Pin>
+              <Expression>US_Left&gt;=0 &amp;&amp; US_Left&lt;=15</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>13</Out_Pin>
+              <Expression>US_Right&gt;=0 &amp;&amp; US_Right&lt;=15</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>14</Out_Pin>
+              <Expression>CSLeft_R&gt;=250 &amp;&amp; CSLeft_R&lt;=255 &amp;&amp; CSLeft_G&gt;=250 &amp;&amp; CSLeft_G&lt;=255 &amp;&amp; CSLeft_B&gt;=40 &amp;&amp; CSLeft_B&lt;=60 &amp;&amp; CSRight_R&gt;=250 &amp;&amp; CSRight_R&lt;=255 &amp;&amp; CSRight_G&gt;=250 &amp;&amp; CSRight_G&lt;=255 &amp;&amp; CSRight_B&gt;=40 &amp;&amp; CSRight_B&lt;=60</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>15</Out_Pin>
+              <Expression>CSLeft_R&gt;=250 &amp;&amp; CSLeft_R&lt;=255 &amp;&amp; CSLeft_G&gt;=250 &amp;&amp; CSLeft_G&lt;=255 &amp;&amp; CSLeft_B&gt;=40 &amp;&amp; CSLeft_B&lt;=60 ||(CSRight_R&gt;250&amp;&amp;CSRight_G&gt;250&amp;&amp;(CSRight_B&gt;40&amp;&amp;CSRight_B&lt;60))</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>16</Out_Pin>
+              <Expression>true</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>860</X>
+            <Y>46</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>5</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=2 ; Duration=50;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>860</X>
+            <Y>94</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>6</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=3 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>860</X>
+            <Y>142</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>7</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=4 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>860</X>
+            <Y>190</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>8</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=5 ; Duration=34;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>860</X>
+            <Y>238</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>9</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=6 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>860</X>
+            <Y>286</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>10</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=7 ; Duration=34;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>860</X>
+            <Y>334</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>11</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=8 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>860</X>
+            <Y>382</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>12</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=9 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>860</X>
+            <Y>430</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>13</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=10 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>860</X>
+            <Y>478</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>14</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=11 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>860</X>
+            <Y>526</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>15</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=12 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>860</X>
+            <Y>574</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>16</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=13 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>186</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>17</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=14 ; Duration=50;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>234</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>18</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=15 ; Duration=50;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>282</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>19</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=16 ; Duration=50;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>330</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>20</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=17 ; Duration=50;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>378</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>21</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=18 ; Duration=50;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>426</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>22</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=19 ; Duration=50;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>474</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>23</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=20 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>522</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>24</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=21 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>570</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>25</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=22 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>320</X>
+            <Y>618</Y>
+          </Location>
+          <Width>180</Width>
+          <Name>Act</Name>
+          <In_Pin>26</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction=23 ; Duration=1;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1120</X>
+            <Y>20</Y>
+          </Location>
+          <Width>100</Width>
+          <Name>Switch</Name>
+          <In_Pin>27</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Switch</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>CurAction</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>28</Out_Pin>
+              <Expression>0</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>29</Out_Pin>
+              <Expression>1</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>30</Out_Pin>
+              <Expression>2</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>31</Out_Pin>
+              <Expression>3</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>32</Out_Pin>
+              <Expression>4</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>33</Out_Pin>
+              <Expression>5</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>34</Out_Pin>
+              <Expression>6</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>35</Out_Pin>
+              <Expression>7</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>36</Out_Pin>
+              <Expression>8</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>37</Out_Pin>
+              <Expression>9</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>38</Out_Pin>
+              <Expression>10</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>39</Out_Pin>
+              <Expression>11</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>40</Out_Pin>
+              <Expression>12</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>41</Out_Pin>
+              <Expression>13</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>42</Out_Pin>
+              <Expression>14</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>43</Out_Pin>
+              <Expression>15</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>44</Out_Pin>
+              <Expression>16</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>45</Out_Pin>
+              <Expression>17</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>46</Out_Pin>
+              <Expression>18</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>47</Out_Pin>
+              <Expression>19</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>48</Out_Pin>
+              <Expression>20</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>49</Out_Pin>
+              <Expression>21</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>50</Out_Pin>
+              <Expression>22</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>51</Out_Pin>
+              <Expression>23</Expression>
+            </Expression>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>20</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>28</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=0;Wheel_Right=0;LED_1=0;MyState=0;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>68</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>29</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=-5;Wheel_Right=-5;LED_1=0;MyState=0;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>116</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>30</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=0;Wheel_Right=0;LED_1=2;MyState=0;if(Duration==0)
+{
+RedObject=0;
+GreenObject=0;
+BlackObject=0;
+IfFreeObject=1;
+FreeStep=0;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>164</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>31</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=-5;Wheel_Right=-5;LED_1=0;MyState=0;if(CSRight_R&gt;250&amp;&amp;(CSRight_G&gt;140&amp;&amp;CSRight_G&lt;190)&amp;&amp;
+(CSRight_B&gt;40&amp;&amp;CSRight_B&lt;60)&amp;&amp;RedObject==1&amp;&amp;GreenObject==1&amp;&amp;BlackObject==1)
+{
+Wheel_Left=1;
+Wheel_Right=0;
+}
+else
+{
+Wheel_Left=0;
+Wheel_Right=1;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>212</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>32</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=3;Wheel_Right=3;LED_1=0;MyState=0;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>260</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>33</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=3;Wheel_Right=3;LED_1=0;MyState=0;if(Duration==0)
+{
+Wheel_Left=0;
+Wheel_Right=0;
+FreeStep=4;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>308</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>34</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=-5;Wheel_Right=-5;LED_1=0;MyState=0;if((Compass&gt;268)&amp;&amp;(Compass&lt;272))
+{
+Wheel_Left=0;
+Wheel_Right=0;
+FreeStep=3;
+}
+else
+{
+Wheel_Left=1;
+Wheel_Right=0;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>356</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>35</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=3;Wheel_Right=3;LED_1=0;MyState=0;if(Duration==0)
+{
+Wheel_Left=0;
+Wheel_Right=0;
+FreeStep=2;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>404</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>36</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=-5;Wheel_Right=-5;LED_1=0;MyState=0;if((Compass&lt;2)&amp;&amp;(Compass&gt;358))
+{
+Wheel_Left=0;
+Wheel_Right=0;
+FreeStep=1;
+}
+else
+{
+Wheel_Left=0;
+Wheel_Right=1;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>452</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>37</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=-5;Wheel_Right=-5;LED_1=0;MyState=0;if((Compass&lt;2)&amp;&amp;(Compass&gt;358))
+{
+Wheel_Left=0;
+Wheel_Right=0;
+FreeStep=1;
+}
+else
+{
+Wheel_Left=0;
+Wheel_Right=1;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>500</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>38</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=-5;Wheel_Right=-5;LED_1=0;MyState=0;if((Compass&lt;2)&amp;&amp;(Compass&gt;358))
+{
+Wheel_Left=0;
+Wheel_Right=0;
+FreeStep=1;
+}
+else
+{
+Wheel_Left=0;
+Wheel_Right=1;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>548</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>39</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=-5;Wheel_Right=-5;LED_1=0;MyState=0;Wheel_Left=-3;
+Wheel_Right=-3;
+Wheel_Left=3;
+Wheel_Right=-4;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>596</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>40</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=-5;Wheel_Right=-5;LED_1=0;MyState=0;if(CSLeft_R&gt;250&amp;&amp;CSLeft_G&gt;250&amp;&amp;(CSLeft_B&gt;40&amp;&amp;CSLeft_B&lt;60))
+{
+Wheel_Left=3;
+Wheel_Right=2;
+}
+else
+{
+Wheel_Left=2;
+Wheel_Right=3;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>644</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>41</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=2;Wheel_Right=3;LED_1=0;MyState=0;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>692</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>42</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=0;Wheel_Right=0;LED_1=1;MyState=0;if(Duration==0)
+{
+BlackObject=BlackObject+1;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>740</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>43</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=0;Wheel_Right=0;LED_1=1;MyState=0;if(Duration==0)
+{
+GreenObject=GreenObject+1;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>788</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>44</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=0;Wheel_Right=0;LED_1=1;MyState=0;if(Duration==0)
+{
+RedObject=RedObject+1;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>836</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>45</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=0;Wheel_Right=0;LED_1=1;MyState=0;if(Duration==0)
+{
+BlackObject=BlackObject+1;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>884</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>46</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=0;Wheel_Right=0;LED_1=1;MyState=0;if(Duration==0)
+{
+GreenObject=GreenObject+1;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>932</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>47</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=0;Wheel_Right=0;LED_1=1;MyState=0;if(Duration==0)
+{
+RedObject=RedObject+1;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>980</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>48</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=-5;Wheel_Right=-5;LED_1=0;MyState=0;if(US_Left&lt;15)
+{
+Wheel_Left=2;
+Wheel_Right=-2;
+}
+else
+{
+Wheel_Left=-2;
+Wheel_Right=2;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>1028</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>49</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=2;Wheel_Right=-2;LED_1=0;MyState=0;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>1076</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>50</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=-5;Wheel_Right=-5;LED_1=0;MyState=0;if(CSLeft_R&gt;250&amp;&amp;CSLeft_G&gt;250&amp;&amp;(CSLeft_B&gt;40&amp;&amp;CSLeft_B&lt;60))
+{
+Wheel_Left=2;
+Wheel_Right=-2;
+}
+else
+{
+Wheel_Left=-2;
+Wheel_Right=2;
+}</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+        <Statement>
+          <bSyntaxError>false</bSyntaxError>
+          <Location>
+            <X>1420</X>
+            <Y>1124</Y>
+          </Location>
+          <Width>220</Width>
+          <Name>Act</Name>
+          <In_Pin>51</In_Pin>
+          <Out_Pin>-1</Out_Pin>
+          <Keyword>Act</Keyword>
+          <Expressions>
+            <Expression>
+              <Out_Pin>-1</Out_Pin>
+              <Expression>Wheel_Left=3;Wheel_Right=3;LED_1=0;MyState=0;</Expression>
+            </Expression>
+          </Expressions>
+        </Statement>
+      </Statements>
+      <Variables />
+    </Function>
+  </Functions>
+</Project>
